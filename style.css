@@ -1,0 +1,17 @@
+
+
+nav{
+    background-color:hotpink pink;
+    padding: 10px;
+}
+
+nav a {
+    color: rgb(255, 254, 254);
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: rgb(2, 2, 2);
+    color: hotpink;
+}
