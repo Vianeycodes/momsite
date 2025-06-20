@@ -1,17 +1,30 @@
-
-
-nav{
-    background-color:hotpink pink;
-    padding: 10px;
+.navbar ul {
+    list-style-type: none; /* Removes bullet points */
+    margin: 0;
+    padding: 0;
+    lbackground-color: #333; /* Dark background for the nav bar */
+    overflow: hidden; /* Clear floats */
 }
 
-nav a {
-    color: rgb(255, 254, 254);
-    text-decoration: none;
-    padding: 10px;
+.navbar li {
+    float: left; /* Makes list items appear side-by-side */
 }
 
-nav a:hover {
-    background-color: rgb(2, 2, 2);
-    color: hotpink;
+.navbar li a {
+    display: block; /* Makes the entire link clickable */
+    color: white; /* Text color */
+    text-align: center;
+    padding: 14px 16px; /* Spacing inside each link */
+    text-decoration: none; /* Removes underline from links */
+}
+
+.navbar li a:hover {
+    background-color: #555; /* Change background on hover */
+}
+h1 {
+    font-size: 5em; /* Adjust this value to make it bigger or smaller */
+    color: #FF5733; /* Optional: Give it a bold color, like a bright orange */
+    text-align: left; /* Optional: Center the text */
+    margin-top: 50px; /* Optional: Add some space above it */
+    margin-bottom: 20px; /* Optional: Add some space below it */
 }
